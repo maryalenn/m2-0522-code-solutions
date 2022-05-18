@@ -4,7 +4,6 @@ var countDown = setInterval(startCountDown, 1000);
 function startCountDown() {
   heading.textContent--;
   if (heading.textContent < 1) {
-    clearInterval();
     heading.textContent = '~Earth Beeeelooowww Us~';
     stopCountDown();
   }
