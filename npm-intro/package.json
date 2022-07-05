@@ -1,0 +1,14 @@
+{
+  "name": "npm-intro",
+  "version": "1.0.0",
+  "description": "Sample package file setup using the NPM questionairre.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marya Chuong",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}
